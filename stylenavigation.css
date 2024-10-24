@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    padding: 15px;
+}
+
+nav ul li a {
+    color: rgb(165, 13, 13);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav.scrolled {
+    background-color: #13b4c3; /* Change background color on scroll */
+}
+
+nav ul li a:hover {
+    color: yellow; /* Change font color on hover */
+}
